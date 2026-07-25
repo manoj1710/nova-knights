@@ -1,0 +1,97 @@
+{
+    "batch_id": "BATCH-1784945360",
+    "total": 5,
+    "pass": 1,
+    "fail": 4,
+    "review": 0,
+    "yield_percentage": 20.0,
+    "inspection_time": "7.3 seconds",
+    "created_at": "2026-07-25T07:39:27.985426",
+    "screws": [
+        {
+            "id": 1,
+            "name": "BATCH-1784945360_crop_1.jpg",
+            "bbox": [
+                269,
+                264,
+                146,
+                506
+            ],
+            "status": "FAIL",
+            "confidence": 92.5,
+            "defect": "Scratch",
+            "severity": "Medium",
+            "reason": "Multiple linear surface scratches are visible on both the upper and lower unthreaded shank sections of the screw. These imperfections exceed acceptable surface finish standards.",
+            "recommendation": "Scrap",
+            "summary": "The screw exhibits multiple surface scratches on its shank, indicating a quality control failure."
+        },
+        {
+            "id": 2,
+            "name": "BATCH-1784945360_crop_2.jpg",
+            "bbox": [
+                94,
+                264,
+                145,
+                508
+            ],
+            "status": "FAIL",
+            "confidence": 95.0,
+            "defect": "Crack",
+            "severity": "High",
+            "reason": "A prominent vertical crack is observed on the unthreaded shank of the screw, extending from below the head towards the threaded section. This indicates a significant structural integrity issue.",
+            "recommendation": "Scrap",
+            "summary": "The screw exhibits a significant crack on its shank, rendering it unsuitable for use and requiring immediate rejection."
+        },
+        {
+            "id": 3,
+            "name": "BATCH-1784945360_crop_3.jpg",
+            "bbox": [
+                439,
+                263,
+                144,
+                507
+            ],
+            "status": "FAIL",
+            "confidence": 95.5,
+            "defect": "Crack",
+            "severity": "High",
+            "reason": "A distinct vertical crack is observed on the screw shank, extending from below the head towards the threaded section. This defect compromises the structural integrity of the fastener.",
+            "recommendation": "Scrap",
+            "summary": "The screw exhibits a significant crack on its shank, rendering it unsuitable for use and requiring immediate rejection."
+        },
+        {
+            "id": 4,
+            "name": "BATCH-1784945360_crop_4.jpg",
+            "bbox": [
+                783,
+                262,
+                144,
+                508
+            ],
+            "status": "PASS",
+            "confidence": 98.5,
+            "defect": "Normal",
+            "severity": "None",
+            "reason": "The screw exhibits a uniform surface finish, well-formed hexagonal head with clear markings, and consistently cut threads without any visible signs of rust, scratches, cracks, or dents. All features appear to be within acceptable manufacturing tolerances.",
+            "recommendation": "Approve for use.",
+            "summary": "The screw is of good quality with no visible defects, meeting all inspection criteria."
+        },
+        {
+            "id": 5,
+            "name": "BATCH-1784945360_crop_5.jpg",
+            "bbox": [
+                611,
+                262,
+                144,
+                509
+            ],
+            "status": "FAIL",
+            "confidence": 92.5,
+            "defect": "Scratch",
+            "severity": "High",
+            "reason": "A prominent and deep scratch is clearly visible on the unthreaded portion of the screw shaft. This defect could compromise the structural integrity, fatigue life, and overall performance of the screw.",
+            "recommendation": "Scrap",
+            "summary": "The screw is defective due to a significant deep scratch on its shaft, making it unsuitable for intended use."
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "batch_id": "TEST-BATCH-001",
+    "total": 3,
+    "pass": 0,
+    "fail": 0,
+    "review": 3,
+    "yield_percentage": 0.0,
+    "inspection_time": "11.7 seconds",
+    "created_at": "2026-07-25T07:27:51.324033",
+    "screws": [
+        {
+            "id": 1,
+            "name": "TEST-BATCH-001_crop_1.jpg",
+            "bbox": [
+                500,
+                200,
+                46,
+                141
+            ],
+            "status": "REVIEW",
+            "confidence": 75.0,
+            "defect": "Unknown",
+            "severity": "None",
+            "reason": "The provided image is a uniform dark grey rectangle with no discernible features, textures, or details of a screw. It is impossible to identify any defects or assess quality from this image.",
+            "recommendation": "Re-inspect with a clear and detailed image of the screw.",
+            "summary": "The image is entirely featureless, preventing any quality inspection or defect identification."
+        },
+        {
+            "id": 2,
+            "name": "TEST-BATCH-001_crop_2.jpg",
+            "bbox": [
+                300,
+                150,
+                41,
+                151
+            ],
+            "status": "REVIEW",
+            "confidence": 5.0,
+            "defect": "Unknown",
+            "severity": "None",
+            "reason": "The provided image is entirely black, making it impossible to discern any features of a screw or potential defects. No visual information is available for analysis.",
+            "recommendation": "Re-inspect the screw with a clear, well-lit image that shows the screw's details.",
+            "summary": "The screw's quality cannot be assessed due to an uninterpretable, completely black image. Re-inspection with a proper image is required."
+        },
+        {
+            "id": 3,
+            "name": "TEST-BATCH-001_crop_3.jpg",
+            "bbox": [
+                100,
+                100,
+                41,
+                151
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "None",
+            "reason": "The provided image is a solid dark grey rectangle with no discernible features of a screw. It is impossible to perform any quality inspection or defect detection based on the current visual input.",
+            "recommendation": "Re-capture the image ensuring the screw is clearly visible and properly illuminated for a valid inspection.",
+            "summary": "Inspection failed due to an unidentifiable image; no screw features were visible for analysis."
+        }
+    ]
+}

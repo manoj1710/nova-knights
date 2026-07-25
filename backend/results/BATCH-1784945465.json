@@ -1,0 +1,522 @@
+{
+    "batch_id": "BATCH-1784945465",
+    "total": 30,
+    "pass": 6,
+    "fail": 0,
+    "review": 24,
+    "yield_percentage": 20.0,
+    "inspection_time": "10.5 seconds",
+    "created_at": "2026-07-25T07:41:15.902888",
+    "screws": [
+        {
+            "id": 1,
+            "name": "BATCH-1784945465_crop_1.jpg",
+            "bbox": [
+                703,
+                864,
+                55,
+                125
+            ],
+            "status": "PASS",
+            "confidence": 98.5,
+            "defect": "Normal",
+            "severity": "None",
+            "reason": "The screw exhibits no visible defects such as rust, scratches, cracks, or dents. The surface finish is consistent, and the threads appear well-formed with no irregularities.",
+            "recommendation": "Approve",
+            "summary": "The screw is of excellent quality, free from any defects and meets all inspection criteria."
+        },
+        {
+            "id": 2,
+            "name": "BATCH-1784945465_crop_2.jpg",
+            "bbox": [
+                843,
+                853,
+                52,
+                146
+            ],
+            "status": "PASS",
+            "confidence": 98.5,
+            "defect": "Normal",
+            "severity": "None",
+            "reason": "The screw exhibits a uniform black coating, intact threads, and a well-formed head and tip, with no visible signs of damage, rust, scratches, cracks, or dents. All features appear to be within acceptable manufacturing tolerances.",
+            "recommendation": "Approve",
+            "summary": "The screw is in excellent condition with no visible defects, indicating high quality."
+        },
+        {
+            "id": 3,
+            "name": "BATCH-1784945465_crop_3.jpg",
+            "bbox": [
+                563,
+                852,
+                55,
+                147
+            ],
+            "status": "PASS",
+            "confidence": 98.5,
+            "defect": "Normal",
+            "severity": "None",
+            "reason": "The screw exhibits a uniform metallic finish, well-formed Phillips head drive, consistent threading, and a sharp tip. No signs of rust, scratches, cracks, or dents were observed on any part of the screw.",
+            "recommendation": "Approve",
+            "summary": "The screw is in excellent condition with no visible defects, indicating high manufacturing quality."
+        },
+        {
+            "id": 4,
+            "name": "BATCH-1784945465_crop_4.jpg",
+            "bbox": [
+                431,
+                846,
+                54,
+                160
+            ],
+            "status": "PASS",
+            "confidence": 98.5,
+            "defect": "Normal",
+            "severity": "None",
+            "reason": "The screw exhibits no visible defects such as rust, scratches, cracks, or dents on its head, shaft, or tip. The threads are well-formed and consistent, and the finish is uniform.",
+            "recommendation": "Approve",
+            "summary": "The screw is of excellent quality with no detected imperfections."
+        },
+        {
+            "id": 5,
+            "name": "BATCH-1784945465_crop_5.jpg",
+            "bbox": [
+                286,
+                836,
+                51,
+                160
+            ],
+            "status": "PASS",
+            "confidence": 98.5,
+            "defect": "Normal",
+            "severity": "None",
+            "reason": "The screw exhibits a uniform black finish, well-formed threads, an intact Phillips drive head, and a sharp, undamaged tip. No visible signs of rust, scratches, cracks, or dents were detected.",
+            "recommendation": "Approve",
+            "summary": "The screw is in excellent condition, free from any visible defects or imperfections, indicating high manufacturing quality."
+        },
+        {
+            "id": 6,
+            "name": "BATCH-1784945465_crop_6.jpg",
+            "bbox": [
+                125,
+                830,
+                64,
+                166
+            ],
+            "status": "PASS",
+            "confidence": 98.5,
+            "defect": "Normal",
+            "severity": "None",
+            "reason": "The screw exhibits no visible defects such as rust, scratches, cracks, or dents. The threads are well-formed, the head is intact, and the overall finish is consistent with a new, high-quality product.",
+            "recommendation": "Approve",
+            "summary": "The screw is in excellent condition, free from any manufacturing flaws or damage, and meets all quality standards."
+        },
+        {
+            "id": 7,
+            "name": "BATCH-1784945465_crop_7.jpg",
+            "bbox": [
+                286,
+                672,
+                53,
+                126
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 58.198658403s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 8,
+            "name": "BATCH-1784945465_crop_8.jpg",
+            "bbox": [
+                701,
+                670,
+                53,
+                148
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 58.08789128s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 9,
+            "name": "BATCH-1784945465_crop_9.jpg",
+            "bbox": [
+                835,
+                669,
+                65,
+                158
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.981886712s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 10,
+            "name": "BATCH-1784945465_crop_10.jpg",
+            "bbox": [
+                432,
+                668,
+                55,
+                149
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.793347629s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 11,
+            "name": "BATCH-1784945465_crop_11.jpg",
+            "bbox": [
+                559,
+                667,
+                55,
+                149
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.790233788s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 12,
+            "name": "BATCH-1784945465_crop_12.jpg",
+            "bbox": [
+                134,
+                658,
+                49,
+                140
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.676838629s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 13,
+            "name": "BATCH-1784945465_crop_13.jpg",
+            "bbox": [
+                840,
+                472,
+                56,
+                166
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.526893239s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 14,
+            "name": "BATCH-1784945465_crop_14.jpg",
+            "bbox": [
+                698,
+                471,
+                55,
+                171
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.51640688s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 15,
+            "name": "BATCH-1784945465_crop_15.jpg",
+            "bbox": [
+                563,
+                471,
+                53,
+                169
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.45296818s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 16,
+            "name": "BATCH-1784945465_crop_16.jpg",
+            "bbox": [
+                131,
+                466,
+                60,
+                165
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.285616725s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 17,
+            "name": "BATCH-1784945465_crop_17.jpg",
+            "bbox": [
+                296,
+                463,
+                53,
+                171
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.283476696s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 18,
+            "name": "BATCH-1784945465_crop_18.jpg",
+            "bbox": [
+                430,
+                461,
+                56,
+                178
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 57.257900885s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 19,
+            "name": "BATCH-1784945465_crop_19.jpg",
+            "bbox": [
+                839,
+                264,
+                54,
+                177
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.962530729s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 20,
+            "name": "BATCH-1784945465_crop_20.jpg",
+            "bbox": [
+                570,
+                264,
+                49,
+                182
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.96376647s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 21,
+            "name": "BATCH-1784945465_crop_21.jpg",
+            "bbox": [
+                703,
+                261,
+                49,
+                184
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.93904045s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 22,
+            "name": "BATCH-1784945465_crop_22.jpg",
+            "bbox": [
+                433,
+                256,
+                50,
+                187
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.737030691s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 23,
+            "name": "BATCH-1784945465_crop_23.jpg",
+            "bbox": [
+                296,
+                255,
+                50,
+                189
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.697946513s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 24,
+            "name": "BATCH-1784945465_crop_24.jpg",
+            "bbox": [
+                138,
+                252,
+                57,
+                193
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.699322289s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 25,
+            "name": "BATCH-1784945465_crop_25.jpg",
+            "bbox": [
+                835,
+                38,
+                54,
+                203
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.429540241s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 26,
+            "name": "BATCH-1784945465_crop_26.jpg",
+            "bbox": [
+                701,
+                36,
+                54,
+                207
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.447439792s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 27,
+            "name": "BATCH-1784945465_crop_27.jpg",
+            "bbox": [
+                300,
+                26,
+                51,
+                215
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.433051504s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 28,
+            "name": "BATCH-1784945465_crop_28.jpg",
+            "bbox": [
+                439,
+                23,
+                54,
+                217
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.119398037s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 29,
+            "name": "BATCH-1784945465_crop_29.jpg",
+            "bbox": [
+                565,
+                22,
+                52,
+                222
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.134117005s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        },
+        {
+            "id": 30,
+            "name": "BATCH-1784945465_crop_30.jpg",
+            "bbox": [
+                144,
+                22,
+                52,
+                215
+            ],
+            "status": "REVIEW",
+            "confidence": 0.0,
+            "defect": "Unknown",
+            "severity": "Critical",
+            "reason": "System error during analysis. Details: Gemini inspection failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-2.5-flash\\nPlease retry in 56.130821746s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "recommendation": "Submit for manual visual inspection.",
+            "summary": "AI inspection failed to evaluate this component."
+        }
+    ]
+}
